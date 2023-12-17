@@ -28,6 +28,7 @@
     border-radius: 10px;
     padding: 10px;
     margin: 20px;
+    background-color: rgb(241, 241, 241);
 }
 .scroll_section p{
     display: none;
