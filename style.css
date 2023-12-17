@@ -1,0 +1,107 @@
+#searchinput{
+    width: 300px;
+}
+#searchbar{
+    border: 1px solid black;
+}
+
+.cards_section{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    width: 100%;
+}
+.card{
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+#topdeals{
+    margin-left: 20px;
+}
+.scroll_section{
+    display: flex;
+    overflow: scroll;
+    overflow-y: hidden;
+    border: 2px solid rgb(182, 182, 182);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+.scroll_section p{
+    display: none;
+}
+.card img{
+    padding: 10px;
+}
+
+h4{
+    margin-left: 20px;
+}
+.accordion{
+    margin: 10px 20px;
+}
+
+.back2top{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 40px;
+    background-color: #304D30;
+    color: white;
+    text-decoration: none;
+}
+.back2top:hover{
+    background-color: rgb(41, 90, 60);
+}
+.info{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #163020;
+    color: bisque;
+}
+td{
+    width: 200px;
+    text-align: center;
+    font-size: 12px;
+    padding: 5px 0px;
+}
+.copyright{
+    background-color: #304D30;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+body{
+    background-color: rgb(151, 151, 151);
+    padding: 15px 0px;
+}
+
+nav{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px){
+    #searchbar{
+        width: 100%;
+        margin: 10px;
+        border: 0px;
+    }
+    #searchinput{
+        width: 100%;
+    }
+    .cards_section .card{
+        min-width: 150px;
+        margin: 5px;
+    }
+    .card p{
+        display: none;
+    }
+}
